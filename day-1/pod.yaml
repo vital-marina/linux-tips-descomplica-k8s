@@ -1,0 +1,18 @@
+#arquivo yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  creationTimestamp: null
+  labels:
+    run: anamarrero
+  name: anamarrero-2
+spec:
+  containers:
+  - image: nginx
+    name: anamarrero
+    ports:
+    - containerPort: 80
+    resources: {}
+  dnsPolicy: ClusterFirst
+  restartPolicy: Always
+status: {}

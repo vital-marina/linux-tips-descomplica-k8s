@@ -1,0 +1,2 @@
+source /root/.kube/completion.bash.inc
+source /etc/bash_completion
