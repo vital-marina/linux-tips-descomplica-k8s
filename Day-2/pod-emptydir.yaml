@@ -2,15 +2,15 @@ apiVersion: v1
 kind: Pod
 metadata:
   labels:
-    run: marina2
-  name: marina2
+    run: marina3
+  name: marina3
 spec:
   containers: 
-  - image: ubuntu
-    name: ubuntu
-    args:
-    - sleep
-    - "1800"    
+  - image: nginx
+    name: webserver
+    volumeMounts:
+    - mountPath: /marinadir
+      name: primeiro-emptydir
     resources:
       limits:
         cpu: "0.5"
@@ -20,4 +20,8 @@ spec:
         memory: "64Mi"
   dnsPolicy: ClusterFirst
   restartPolicy: Always
+  volumes: 
+  - name: primeiro-emptydir
+    emptyDir:
+      sizeLimit: 256Mi
 status: {}
