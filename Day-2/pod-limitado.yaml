@@ -13,10 +13,10 @@ spec:
     - "1800"    
     resources:
       limits:
-        cpu: "0.5"
+        cpu: "1"
         memory: "128Mi"
       requests:
-        cpu: "0.3"
+        cpu: "0.5"
         memory: "64Mi"
   dnsPolicy: ClusterFirst
   restartPolicy: Always
