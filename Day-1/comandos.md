@@ -8,7 +8,7 @@ kind create cluster
 kubectl create -f pod.yaml
 ````
 
-Se o pod já existir, você pode atualizar as configurações através de um arquivo de manifesto (.yaml). Funciona também na criação de um novo pod
+#### Se o pod já existir, você pode atualizar as configurações através de um arquivo de manifesto (.yaml). Funciona também na criação de um novo pod
 ````
 kubectl apply -f pod.yaml
 ````

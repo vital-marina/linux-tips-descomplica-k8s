@@ -1,9 +1,9 @@
 # linux-tips-descomp-k8s
-<p>Repositório utilizado no curso Kubernetes Essentials da LinuxTips</p>
-<p>https://www.linuxtips.io/course/kubernetes-essentials</p>
-
+> <p>Repositório utilizado no curso Kubernetes Essentials da LinuxTips</p>
+> <p>https://www.linuxtips.io/course/kubernetes-essentials</p>
 #
-# Cronograma
+### Bora começar! ⭐
+
 ## Day 1
 - O que é um container?
 - O que é container engine?
