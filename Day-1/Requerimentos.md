@@ -1,7 +1,7 @@
 # Qual distro utilizar?
 Ubuntu, Debian, CentOS e afins.  
 
-
+#
 # Kubectl
 Ferramenta de linha de comando que pode ser usada para interagir com seus clusters
 
@@ -25,6 +25,7 @@ kubectl version
 ````
 <img src="kubectl_version.png">
 
+#
 # Kind
 Ferramenta para execução de contêineres Docker que simulam o funcionamento de um cluster Kubernetes
 
