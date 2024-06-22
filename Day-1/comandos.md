@@ -2,7 +2,7 @@
 ````
 kind create cluster
 ````
-#### Criar um cluster
+#### Criar um cluster através de um arquivo de manifesto (.yaml)
 ````
 kind create cluster --name <nome-do-cluster> --config kind/kind-cluster.yaml
 ````
