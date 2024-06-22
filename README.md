@@ -1,5 +1,7 @@
 # linux-tips-descomp-k8s
-Repositório do curso Kubernetes Essentials da LinuxTips
+Repositório utilizado no curso Kubernetes Essentials da LinuxTips
+https://www.linuxtips.io/course/kubernetes-essentials
+
 #
 # Cronograma
 ## Day 1
