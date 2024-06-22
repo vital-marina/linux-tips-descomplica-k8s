@@ -23,7 +23,7 @@ Confirmar se a instalação está atualizada com a última versão
 ````
 kubectl version 
 ````
-<img src="2024-06-21_21-08.png">
+<img src="kubectl_version.png">
 
 # Kind
 Ferramenta para execução de contêineres Docker que simulam o funcionamento de um cluster Kubernetes
@@ -50,4 +50,4 @@ Confirmar a instalação
 kind --version
 ````
 
-<img src="https://github.com/vital-marina/linux-tips-descomp-k8s/blob/main/Day-1/2024-06-21_21-07_1.png">
+<img src="kind_version.png">
