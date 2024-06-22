@@ -2,6 +2,10 @@
 ````
 kind create cluster
 ````
+#### Criar um cluster
+````
+kind create cluster --name <nome-do-cluster> --config kind/kind-cluster.yaml
+````
 
 #### Criar um novo pod através de um arquivo de manifesto (.yaml)
 ````
