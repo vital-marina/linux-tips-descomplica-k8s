@@ -7,6 +7,11 @@ kind create cluster
 kind create cluster --name <nome-do-cluster> --config kind/kind-cluster.yaml
 ````
 
+#### Deletar cluster em um namespace default
+````
+kind delete cluster
+````
+
 #### Criar um novo pod através de um arquivo de manifesto (.yaml)
 ````
 kubectl create -f pod.yaml
@@ -74,9 +79,4 @@ kubectl describe pod <nome-do-pod>
 #### Deletar pod
 ````
 kubectl delete <nome-do-pod>
-````
-
-#### Deletar cluster em um namespace default
-````
-kind delete cluster
 ````
