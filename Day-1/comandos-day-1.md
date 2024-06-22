@@ -41,11 +41,6 @@ kubectl get pods -A
 kubectl get pods -n <namespace>
 ````
 
-#### Entrar no bash do conteiner
-````
-k exec -ti <nome-do-pod> -- bash
-````
-
 #### Ver logs do pod
 ````
 kubectl logs <nome-do-pod> -c <pod image>
@@ -69,11 +64,6 @@ kubectl get pods <nome-do-pod> -o json
 #### Ver IP do pod e nome do node
 ````
 kubectl get pods <nome-do-pod> -o wide
-````
-
-#### Consultar informação sobre um pod sem o get
-````
-kubectl describe pod <nome-do-pod>
 ````
 
 #### Deletar pod
