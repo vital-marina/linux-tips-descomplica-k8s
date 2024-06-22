@@ -12,6 +12,10 @@ kubectl create -f pod.yaml
 ````
 kubectl apply -f pod.yaml
 ````
+#### Ver as namespaces do cluster
+````
+kubectl get namespaces
+````
 
 #### Ver pods na namespace default
 ````
