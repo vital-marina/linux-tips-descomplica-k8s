@@ -4,12 +4,12 @@ kind: Pod
 metadata:
   creationTimestamp: null
   labels:
-    run: anamarrero
-  name: anamarrero-2
+    run: marina
+  name: marina-2
 spec:
   containers:
   - image: nginx
-    name: anamarrero
+    name: marina
     ports:
     - containerPort: 80
     resources: {}
