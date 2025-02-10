@@ -1,4 +1,4 @@
-> # Arquitetura de um Cluster Kubernetes
+> # Arquitetura de um Cluster Kubernetes (K8S)
 > https://kubernetes.io/docs/concepts/overview/components/
 #
 
